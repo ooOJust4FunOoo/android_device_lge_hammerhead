@@ -120,11 +120,11 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_GCC_VERSION_EXP := 4.9
 
 # Optimizations
-CLANG_O3 := true
+CLANG_O3 := false
 STRICT_ALIASING := false
-KRAIT_TUNINGS := true
+KRAIT_TUNINGS := false
 GRAPHITE_OPTS := false
-ENABLE_GCCONLY := true
+ENABLE_GCCONLY := false
 
 # Block builds
 BLOCK_BASED_OTA=false
