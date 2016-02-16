@@ -7,8 +7,8 @@
  },
  {
    "remote":      "github",
-   "repository":  "CyanogenMod/android_kernel_lge_hammerhead",
+   "repository":  "TipsyOs-Devices/kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "cm-13.0"
+   "branch":      "6.0"
  }
 ]
