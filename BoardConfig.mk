@@ -123,9 +123,9 @@ TARGET_GCC_VERSION_EXP := 4.9
 
 # Optimizations
 CLANG_O3 := true
-STRICT_ALIASING := false
+STRICT_ALIASING := true
 KRAIT_TUNINGS := true
-GRAPHITE_OPTS := false
+GRAPHITE_OPTS := true
 ENABLE_GCCONLY := true
 
 # Block builds
