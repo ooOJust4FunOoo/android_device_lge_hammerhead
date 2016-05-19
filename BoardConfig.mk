@@ -115,11 +115,11 @@ TARGET_KERNEL_CONFIG := hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
+TARGET_GCC_VERSION_EXP := 5.3
 
 # Optimizations
 CLANG_O3 := true
@@ -158,7 +158,3 @@ USE_MINIKIN := true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
-
-# Enable workaround for slow rom flash
-BOARD_SUPPRESS_SECURE_ERASE := true
-COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
