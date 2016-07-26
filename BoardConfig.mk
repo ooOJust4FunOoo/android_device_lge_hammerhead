@@ -128,9 +128,6 @@ KRAIT_TUNINGS := true
 GRAPHITE_OPTS := true
 ENABLE_GCCONLY := true
 
-# Block builds
-BLOCK_BASED_OTA=false
-
 HAVE_ADRENO_SOURCE:= false
 
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
@@ -158,6 +155,3 @@ USE_MINIKIN := true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
-
-# Enable workaround for slow rom flash
-BOARD_SUPPRESS_SECURE_ERASE := true
