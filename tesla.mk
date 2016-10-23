@@ -24,9 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# Inherit device configuration
+$(call inherit-product, device/lge/hammerhead/aosp_hammerhead.mk)
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/tesla/config/caf_fw.mk)
 
 PRODUCT_NAME := tesla_hammerhead
 PRODUCT_DEVICE := hammerhead
