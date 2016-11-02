@@ -124,8 +124,8 @@ PRODUCT_PACKAGES += \
     librs_jni
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    DeviceSettings
+#PRODUCT_PACKAGES += \
+#    DeviceSettings
 
 PRODUCT_PACKAGES += \
     gralloc.msm8974 \
@@ -178,10 +178,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     power.msm8974
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
