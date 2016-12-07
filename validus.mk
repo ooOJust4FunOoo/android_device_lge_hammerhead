@@ -25,10 +25,7 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
-$(call inherit-product, vendor/tesla/config/caf_fw.mk)
 
-PRODUCT_NAME := tesla_hammerhead
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := Nexus 5
