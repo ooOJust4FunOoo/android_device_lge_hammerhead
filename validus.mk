@@ -19,7 +19,7 @@
 
 # Validus Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-   DEVICE_MAINTAINERS="Yayo(#blameAnt)Pyrtle"
+   DEVICE_MAINTAINERS="Yayo(blameAnt)Pyrtle"
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
