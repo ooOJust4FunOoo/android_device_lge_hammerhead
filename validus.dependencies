@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "fraz14/kernel_lge_hammerhead",
+    "target_path": "kernel/lge/hammerhead",
+    "branch":      "8.0"
+  },
+  {
+    "repository": "fraz14/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "8.0"
+  }
+]

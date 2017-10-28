@@ -189,7 +189,8 @@ PRODUCT_PACKAGES += \
     mm-jpeg-interface-test \
     mm-qcamera-app \
     android.hardware.camera.provider@2.4-impl \
-    camera.device@3.2-impl
+    camera.device@3.2-impl \
+    Camera2
 
 PRODUCT_PACKAGES += \
     keystore.msm8974
